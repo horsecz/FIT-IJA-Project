@@ -1,0 +1,52 @@
+/*
+ * File: style.css
+ * Authors: Dominik Horký, Tomáš Martykán
+ */
+
+.root {
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 0;
+    -fx-border-style: none;
+}
+
+.label-primary {
+    -fx-text-alignment: center;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.label-secondary {
+    -fx-text-alignment: center;
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+    -fx-padding: 0 0 50px 0;
+}
+
+.button-primary {
+    -fx-padding: 10px;
+    -fx-text-alignment: center;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-background-color: #4299E1;
+    -fx-min-width: 300px;
+    -fx-border-radius: 4px;
+}
+
+.button-secondary {
+    -fx-padding: 10px;
+    -fx-text-alignment: center;
+    -fx-font-size: 18px;
+    -fx-text-fill: #4299E1;
+    -fx-border-color: #4299E1;
+    -fx-border-width: 2px;
+    -fx-background-color: white;
+    -fx-min-width: 300px;
+    -fx-border-radius: 4px;
+}
+
+.button-primary:hover,
+.button-secondary:hover {
+    -fx-opacity: 0.8;
+}

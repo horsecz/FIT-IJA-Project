@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ File: WelcomeView.fxml
+  ~ Authors: Dominik Horký, Tomáš Martykán
+  -->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           xmlns="http://javafx.com/javafx"
+           fx:controller="cz.vutfit.umlapp.view.welcome.WelcomeController"
+           prefHeight="400.0" prefWidth="600.0">
+
+    <VBox alignment="CENTER" spacing="16">
+        <Label text="Welcome to IJA UML" styleClass="label-primary"/>
+        <Label text="No file open" styleClass="label-secondary"/>
+        <Button text="Create New File" onAction="#handleNewFile" styleClass="button-primary"/>
+        <Button text="Open Existing File" onAction="#handleOpenFile" styleClass="button-secondary"/>
+    </VBox>
+
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>
+</StackPane>
